@@ -20,7 +20,7 @@ $(function(){
 						//debugger
 						var data = $.base64.decode(result);
 						var json = decodeURIComponent(escape(data));
-						//console.log(JSON.parse(json))
+						console.log(JSON.parse(json))
 						callback(json);
 					}
 				});
